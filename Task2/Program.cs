@@ -5,7 +5,7 @@
 // a = -9 b = -3 -> max = -3
 
 Console.WriteLine("Введите числа a и b ");
-var numberA = Convert.ToInt32(Console.ReadLine()); 
+int numberA = Convert.ToInt32(Console.ReadLine()); 
 int numberB = Convert.ToInt32(Console.ReadLine()); 
 
 Console.Write($"a = {numberA}; b = {numberB} -> max = ");
