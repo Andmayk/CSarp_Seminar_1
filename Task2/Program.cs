@@ -4,15 +4,17 @@
 // a = 2 b = 10 -> max = 10
 // a = -9 b = -3 -> max = -3
 
-Console.Write("Введите числа a и b ");
-var numberA = Convert.ToInt32(Console.ReadLine()); // чтение строки и перевод в целое число 
-int numberB = Convert.ToInt32(Console.ReadLine()); // чтение строки и перевод в целое число 
+Console.WriteLine("Введите числа a и b ");
+var numberA = Convert.ToInt32(Console.ReadLine()); 
+int numberB = Convert.ToInt32(Console.ReadLine()); 
 
-if (numberA > numberB)
+Console.Write($"a = {numberA}; b = {numberB} -> max = ");
+
+if (numberA > numberB) 
 {
-    System.Console.WriteLine($"max = {numberA}");
+    System.Console.WriteLine(numberA);
 }
 else if (numberA < numberB)
 {
-    System.Console.WriteLine($"max = {numberB}");
+    System.Console.WriteLine(numberB);
 }
