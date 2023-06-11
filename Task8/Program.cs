@@ -6,7 +6,7 @@
 Console.Write("Введите число ");
 int number = Convert.ToInt32(Console.ReadLine()); 
 int index = 2; 
-while (index <= number)
+while (index <= number) 
 {
     Console.Write($" {index},");
     index += 2;

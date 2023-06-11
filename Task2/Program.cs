@@ -8,13 +8,13 @@ Console.WriteLine("Введите числа a и b ");
 int numberA = Convert.ToInt32(Console.ReadLine()); 
 int numberB = Convert.ToInt32(Console.ReadLine()); 
 
-Console.Write($"a = {numberA}; b = {numberB} -> max = ");
+Console.Write($"a = {numberA}; b = {numberB} -> max = "); //выводим начало строки
 
 if (numberA > numberB) 
 {
-    System.Console.WriteLine(numberA);
+    System.Console.WriteLine(numberA); // выводим окончание строки
 }
 else if (numberA < numberB)
 {
-    System.Console.WriteLine(numberB);
+    System.Console.WriteLine(numberB); // выводим окончание строки
 }
